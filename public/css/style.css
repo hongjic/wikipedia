@@ -1,0 +1,51 @@
+body {
+  background-image: url(/images/background2.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+h1 {
+  text-align: center
+}
+
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.input-box {
+  margin-top: 20px;
+  /*position: absolute;*/
+  left: 50%;
+  width: 50%;
+  -webkit-transform: translate(-50%, 0);
+  max-width: 480px;
+  z-index: 3;
+}
+
+b{
+  background-color: #1da1f2;
+}
+
+.well {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.win {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.win-box {
+  top: 35%;
+  position: absolute;
+  left: 42.5%;
+  right: 50%;
+  width: 50%;
+  max-width: 200px;
+  z-index: 99999;
+}
